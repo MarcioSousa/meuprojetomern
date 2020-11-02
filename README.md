@@ -1,3 +1,24 @@
+# Passos para criar o projeto:
+1 - Ir até a pasta que será instalada o projeto.\
+cd Documents/Projetos
+
+2 - Criar o react juntamente com a pasta\
+npx create-react-app nomedomeuprojeto
+
+3 - Entrar na pasta\
+cd nomedomeuprojeto
+
+4 - fazer instalação do dom\
+npm i --save react-router-dom
+
+5 - fazer instalação do Material ui\
+npm i --save @material-ui/core
+npm i --save @material-ui/icons
+npm i --save @material-ui/lab
+
+6 - Abrir VSCode\
+code .
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
