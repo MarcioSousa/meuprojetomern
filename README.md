@@ -12,9 +12,9 @@ cd nomedomeuprojeto
 npm i --save react-router-dom
 
 5 - fazer instalação do Material ui\
-npm i --save @material-ui/core
-npm i --save @material-ui/icons
-npm i --save @material-ui/lab
+npm i --save @material-ui/core\
+npm i --save @material-ui/icons\
+npm i --save @material-ui/lab\
 
 6 - Abrir VSCode\
 code .
