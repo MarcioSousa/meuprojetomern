@@ -1,11 +1,38 @@
 import React from 'react'
 import './App.css'
+import {createMuiTheme, responsiveFontSizes, MuiThemeProvider} from '@material-ui/core'
+
+/* Cores */
+import {orange, lightBlue, blue, deepOrange} from '@material-ui/core/colors'
+import CssBaseline from '@material-ui/core/CssBaseline'
 import Button from '@material-ui/core/Button'
 
 export default function App(){
+    const temaDark = true
+    const tipoPaleta = temaDark ? 'dark' : 'light'
+    const corPrimaria = temaDark ? orange[500] : blue[500]
+    const corSecundaria = temaDark ? deepOrange[900] : lightBlue[400]
+
+    let theme =createMuiTheme(
+        {
+            palette:{
+                type: tipoPaleta,
+                primary: {main:corPrimaria},
+                secondary: {main:corSecundaria}
+            }
+        }
+    )
+
+    theme = responsiveFontSizes(theme)
 
     return (
-        <Button variant="contained" color="primary">Teste</Button>
+        <MuiThemeProvider theme={theme}>
+            <CssBaseline />
+            <Button variant="contained" color="primary">teste</Button>
+            <Button variant="contained" color="secondary">teste 2</Button>
+        </MuiThemeProvider>
     )
 
 }
+
+//53 min do video do dia primeiro de outubro
