@@ -1,3 +1,4 @@
+// cSpell:Ignore outubro, corSecundaria, corPrimaria, primeiro, temaDark, tipoPaleta
 import React from 'react'
 import './App.css'
 import {createMuiTheme, responsiveFontSizes, MuiThemeProvider} from '@material-ui/core'
@@ -35,4 +36,4 @@ export default function App(){
 
 }
 
-//53 min do video do dia primeiro de outubro
+//1:47 min do video do dia primeiro de outubro
