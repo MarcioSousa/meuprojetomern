@@ -1,12 +1,13 @@
-// cSpell:Ignore Cabecalho, Inicio
+// cSpell:Ignore Cabecalho, Inicio, Cartao
 import React from 'react'
-import Typography from '@material-ui/core/Typography'
 import Cabecalho from '../../components/Cabecalho'
+import Cartao from '../../components/Cartao'
 
 export default function Inicio(){
     return(
         <div>
             <Cabecalho />
+            <Cartao />
         </div>
     )
 }
